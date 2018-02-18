@@ -1,0 +1,4 @@
+2018-Feb-18 16:39:17 Required PHP Modules (check_php_modules): Ok
+All required modules are installed.
+2018-Feb-18 16:39:17 PHP Required Parameters (check_php_settings): Fail
+Error! The value of max_input_vars must be 10000 or greater. The current value is: 1000

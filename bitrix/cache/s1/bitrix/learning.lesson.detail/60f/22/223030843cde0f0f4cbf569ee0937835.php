@@ -1,0 +1,31 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001518687038';
+$dateexpire = '001518690638';
+$ser_content = 'a:2:{s:7:"CONTENT";s:509:"
+
+
+			
+		
+		
+<table>
+  <tbody>
+    <tr><td>Our company has established an education assistance program to help eligible employees develop their skills and upgrade their performance. All full-time regular employees who work 40 hours a week and have successfully completed 90 days of employment as a benefited employee are eligible to participate in the program.</td><td></td><td><img height="126" src="/upload/learning/1/res16/z1k1u.N44PT.learning.jpg" width="200" /></td></tr>
+  </tbody>
+</table>
+
+					";s:4:"VARS";a:2:{s:8:"arResult";a:3:{s:7:"DELAYED";b:0;s:6:"COURSE";a:60:{s:9:"LESSON_ID";s:1:"1";s:10:"~LESSON_ID";s:1:"1";s:7:"SITE_ID";s:7:"no site";s:8:"~SITE_ID";s:7:"no site";s:14:"WAS_CHAPTER_ID";N;s:15:"~WAS_CHAPTER_ID";N;s:8:"KEYWORDS";s:0:"";s:9:"~KEYWORDS";s:0:"";s:10:"CHILDS_CNT";s:2:"16";s:11:"~CHILDS_CNT";s:2:"16";s:9:"IS_CHILDS";s:1:"1";s:10:"~IS_CHILDS";s:1:"1";s:4:"SORT";s:3:"100";s:5:"~SORT";s:3:"100";s:11:"TIMESTAMP_X";s:22:"02/15/2018 01:21:19 am";s:12:"~TIMESTAMP_X";s:22:"02/15/2018 01:21:19 am";s:11:"DATE_CREATE";s:22:"02/15/2018 01:21:18 am";s:12:"~DATE_CREATE";s:22:"02/15/2018 01:21:18 am";s:17:"CREATED_USER_NAME";s:19:"(admin) Ono Kenichi";s:18:"~CREATED_USER_NAME";s:19:"(admin) Ono Kenichi";s:10:"CREATED_BY";s:1:"1";s:11:"~CREATED_BY";s:1:"1";s:6:"ACTIVE";s:1:"Y";s:7:"~ACTIVE";s:1:"Y";s:4:"NAME";s:21:"New Employee Handbook";s:5:"~NAME";s:21:"New Employee Handbook";s:15:"PREVIEW_PICTURE";s:3:"611";s:16:"~PREVIEW_PICTURE";s:3:"611";s:12:"PREVIEW_TEXT";s:392:"<p>We have developed the Human Resources course specifically for you.  We feel that this guide provide you with the information you need to take full advantage of your benefits.   You are always welcome to contact us with any issue or concern, but we highly recommend that you use the Intranet Portal tools provided on the web to stay up to date company employee benefits and information.</p>";s:13:"~PREVIEW_TEXT";s:392:"<p>We have developed the Human Resources course specifically for you.  We feel that this guide provide you with the information you need to take full advantage of your benefits.   You are always welcome to contact us with any issue or concern, but we highly recommend that you use the Intranet Portal tools provided on the web to stay up to date company employee benefits and information.</p>";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:18:"~PREVIEW_TEXT_TYPE";s:4:"html";s:11:"DETAIL_TEXT";s:0:"";s:12:"~DETAIL_TEXT";N;s:14:"DETAIL_PICTURE";N;s:15:"~DETAIL_PICTURE";N;s:16:"DETAIL_TEXT_TYPE";s:4:"text";s:17:"~DETAIL_TEXT_TYPE";s:4:"text";s:6:"LAUNCH";N;s:7:"~LAUNCH";N;s:4:"CODE";s:15:"new_employee_s1";s:5:"~CODE";s:15:"new_employee_s1";s:11:"ACTIVE_FROM";N;s:12:"~ACTIVE_FROM";N;s:9:"ACTIVE_TO";N;s:10:"~ACTIVE_TO";N;s:6:"RATING";s:1:"N";s:7:"~RATING";s:1:"N";s:11:"RATING_TYPE";N;s:12:"~RATING_TYPE";N;s:5:"SCORM";s:1:"N";s:6:"~SCORM";s:1:"N";s:16:"LINKED_LESSON_ID";s:1:"1";s:17:"~LINKED_LESSON_ID";s:1:"1";s:9:"COURSE_ID";s:1:"1";s:10:"~COURSE_ID";s:1:"1";s:11:"COURSE_SORT";s:3:"100";s:12:"~COURSE_SORT";s:3:"100";s:2:"ID";s:1:"1";s:3:"~ID";s:1:"1";}s:6:"LESSON";a:62:{s:9:"LESSON_ID";s:2:"16";s:10:"~LESSON_ID";s:2:"16";s:7:"SITE_ID";s:7:"no site";s:8:"~SITE_ID";s:7:"no site";s:14:"WAS_CHAPTER_ID";N;s:15:"~WAS_CHAPTER_ID";N;s:8:"KEYWORDS";s:0:"";s:9:"~KEYWORDS";s:0:"";s:10:"CHILDS_CNT";s:1:"0";s:11:"~CHILDS_CNT";s:1:"0";s:9:"IS_CHILDS";s:1:"0";s:10:"~IS_CHILDS";s:1:"0";s:4:"SORT";N;s:5:"~SORT";N;s:11:"TIMESTAMP_X";s:22:"02/15/2018 01:21:19 am";s:12:"~TIMESTAMP_X";s:22:"02/15/2018 01:21:19 am";s:11:"DATE_CREATE";s:22:"02/15/2018 01:21:19 am";s:12:"~DATE_CREATE";s:22:"02/15/2018 01:21:19 am";s:17:"CREATED_USER_NAME";s:19:"(admin) Ono Kenichi";s:18:"~CREATED_USER_NAME";s:19:"(admin) Ono Kenichi";s:10:"CREATED_BY";s:1:"1";s:11:"~CREATED_BY";s:1:"1";s:6:"ACTIVE";s:1:"Y";s:7:"~ACTIVE";s:1:"Y";s:4:"NAME";s:39:"Tuition Assistance / Career Development";s:5:"~NAME";s:39:"Tuition Assistance / Career Development";s:15:"PREVIEW_PICTURE";N;s:16:"~PREVIEW_PICTURE";N;s:12:"PREVIEW_TEXT";s:0:"";s:13:"~PREVIEW_TEXT";s:0:"";s:17:"PREVIEW_TEXT_TYPE";s:4:"text";s:18:"~PREVIEW_TEXT_TYPE";s:4:"text";s:11:"DETAIL_TEXT";s:491:"
+<table>
+  <tbody>
+    <tr><td>Our company has established an education assistance program to help eligible employees develop their skills and upgrade their performance. All full-time regular employees who work 40 hours a week and have successfully completed 90 days of employment as a benefited employee are eligible to participate in the program.</td><td></td><td><img height="126" src="/upload/learning/1/res16/z1k1u.N44PT.learning.jpg" width="200" /></td></tr>
+  </tbody>
+</table>
+";s:12:"~DETAIL_TEXT";s:491:"
+<table>
+  <tbody>
+    <tr><td>Our company has established an education assistance program to help eligible employees develop their skills and upgrade their performance. All full-time regular employees who work 40 hours a week and have successfully completed 90 days of employment as a benefited employee are eligible to participate in the program.</td><td></td><td><img height="126" src="/upload/learning/1/res16/z1k1u.N44PT.learning.jpg" width="200" /></td></tr>
+  </tbody>
+</table>
+";s:14:"DETAIL_PICTURE";N;s:15:"~DETAIL_PICTURE";N;s:16:"DETAIL_TEXT_TYPE";s:4:"html";s:17:"~DETAIL_TEXT_TYPE";s:4:"html";s:6:"LAUNCH";N;s:7:"~LAUNCH";N;s:4:"CODE";N;s:5:"~CODE";N;s:11:"ACTIVE_FROM";N;s:12:"~ACTIVE_FROM";N;s:9:"ACTIVE_TO";N;s:10:"~ACTIVE_TO";N;s:6:"RATING";s:0:"";s:7:"~RATING";N;s:11:"RATING_TYPE";N;s:12:"~RATING_TYPE";N;s:5:"SCORM";N;s:6:"~SCORM";N;s:16:"LINKED_LESSON_ID";N;s:17:"~LINKED_LESSON_ID";N;s:9:"COURSE_ID";N;s:10:"~COURSE_ID";N;s:11:"COURSE_SORT";N;s:12:"~COURSE_SORT";N;s:21:"PREVIEW_PICTURE_ARRAY";b:0;s:20:"DETAIL_PICTURE_ARRAY";b:0;s:13:"SELF_TEST_URL";s:61:"/services/learning/course.php?COURSE_ID=1&amp;SELF_TEST_ID=16";s:16:"SELF_TEST_EXISTS";b:0;}}s:18:"templateCachedData";a:3:{s:13:"additionalCSS";s:77:"/bitrix/components/bitrix/learning.lesson.detail/templates/.default/style.css";s:9:"frameMode";N;s:12:"frameModeCtx";s:80:"/bitrix/components/bitrix/learning.lesson.detail/templates/.default/template.php";}}}';
+return true;
+?>

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/faceid/WebPhotoMaker/WebPhotoMaker.js" => "15185961922668579","/bitrix/js/faceid/WebPhotoMaker/smoother.js" => "1518596192602",)); ?>

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001518786336';
+$dateexpire = '001518789936';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:23:{s:25:"activity_sl_subscr_import";s:1:"Y";s:24:"company_sl_subscr_import";s:1:"Y";s:24:"contact_sl_subscr_import";s:1:"Y";s:25:"crm_company_all_last_calc";i:1518735600;s:29:"crm_company_overdue_last_calc";i:1518649200;s:29:"crm_company_pending_last_calc";i:1518649200;s:18:"crm_company_search";a:1:{s:13:"last_selected";i:5;}s:25:"crm_contact_all_last_calc";i:1518735600;s:29:"crm_contact_overdue_last_calc";i:1518735600;s:29:"crm_contact_pending_last_calc";i:1518735600;s:18:"crm_contact_search";a:1:{s:13:"last_selected";i:2;}s:24:"crm_cur_act_last_calc_s1";i:1518562800;s:22:"crm_deal_all_last_calc";i:1518735600;s:25:"crm_deal_c0_all_last_calc";i:1518649200;s:29:"crm_deal_c0_overdue_last_calc";i:1518649200;s:29:"crm_deal_c0_pending_last_calc";i:1518649200;s:22:"crm_lead_all_last_calc";i:1518735600;s:26:"crm_lead_overdue_last_calc";i:1518735600;s:26:"crm_lead_pending_last_calc";i:1518735600;s:21:"deal_sl_subscr_import";s:1:"Y";s:19:"kanban_sort_last_id";a:1:{s:4:"LEAD";s:1:"4";}s:21:"lead_sl_subscr_import";s:1:"Y";s:16:"sl_subscr_import";s:1:"Y";}}';
+return true;
+?>

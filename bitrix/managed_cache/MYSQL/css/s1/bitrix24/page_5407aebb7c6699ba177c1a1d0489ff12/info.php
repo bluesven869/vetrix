@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/rest.marketplace.localapp/templates/.default/style.css" => "15185962141740",)); ?>

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/crm.1c.start/templates/.default/script.js" => "15185961831400",)); ?>

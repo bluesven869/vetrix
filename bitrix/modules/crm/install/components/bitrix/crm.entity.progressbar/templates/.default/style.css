@@ -1,0 +1,103 @@
+/*******************************************************************************
+ * Project:------------crm
+ * Component-----------crm.entity.progressbar
+ * File Path-----------/modules/crm/install/components/bitrix/crm.entity.progressbar/templates/wrapper/style.css
+ * Last Modified:------02.06.17 11:31
+ *
+ * @version:-----------17.6.2
+ ******************************************************************************/
+/* ENTITY STATUS */
+.crm-entity-section-status-wrap {
+	position: relative;
+	height: 32px;
+}
+
+.crm-entity-section-status-container { }
+
+.crm-entity-section-status-container-flex {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+.crm-entity-section-status-step {
+	position: relative;
+	overflow: hidden;
+	transition: 300ms all linear;
+	flex: 1 0;
+}
+
+.crm-entity-section-status-step-hover:hover { flex: 4 0; }
+
+.crm-entity-section-status-step-item {
+	position: relative;
+	z-index: 10;
+	box-sizing: border-box;
+	height: 32px;
+	color: #525c68;
+	vertical-align: middle;
+}
+
+.crm-entity-section-status-step-item:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 20;
+	width: 14px;
+	height: 32px;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDE0IDMyIj4gIDxwYXRoIGZpbGw9IiNFQkYxRjQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTS0wLjAwMDIwMDAwMDAwMiwwIEMxLjEwNTgsMCAyLjMwNzgsMC44NDQgMi42ODQ4LDEuODgyIEw3LjY2MTgsMTUuNjEzIEM3Ljg0OTgsMTYuMTMxIDcuODQwOCwxNi45NjQgNy42Mzk4LDE3LjQ4MiBMMi43MjU4LDMwLjEzNiBDMi4zMjU4LDMxLjE2NiAxLjExMjgsMzIgLTAuMDAwMjAwMDAwMDAyLDMyIEwxMy45NzYzMDQxLDMyIEwxMy45NzYzMDQxLDAgTC0wLjAwMDIwMDAwMDAwMiwwIFoiLz48L3N2Zz4=);
+	background-size: cover;
+	content: '';
+}
+
+.crm-entity-section-status-container-flex .crm-entity-section-status-step:last-child .crm-entity-section-status-step-item:after { display: none; }
+
+.crm-entity-section-status-step-item-text {
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 1px 15px 0 10px;
+	width: 100%;
+	height: 32px;
+	border-bottom: 2px solid #ccc;
+	border-radius: 2px;
+	background-color: #dae0e5;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font: 600 12px/29px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	cursor: pointer;
+	transition: all 250ms ease;
+}
+
+/*
+TODO: Edit status button
+
+.crm-entity-section-status-step-item:hover .crm-entity-section-status-step-item-text { padding-right: 40px; }
+
+.crm-entity-section-status-step-item-edit-btn,
+.crm-entity-section-status-step-item-edit-btn-white {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 32px;
+	opacity: .6;
+	cursor: pointer;
+	transition: all 250ms ease;
+}
+
+.crm-entity-section-status-step-item-edit-btn { background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDExIDEwIj48cGF0aCBmaWxsPSIjNTI1QzY5IiBkPSJNMzQ2LjY5Nzk1NCw5MTkgTDM0OC42MjY1NzcsOTIwLjkyODYyMiBMMzQxLjcwOTAzNSw5MjcuODQ0NzgyIEwzMzkuNzgwNDEzLDkyNS45MTYxNiBMMzQ2LjY5Nzk1NCw5MTkgWiBNMzM4LjY0MzQxLDkyOC43MjM0MzggQzMzOC42MjQwNjgsOTI4Ljc5NjY2IDMzOC42NDQ3OTEsOTI4Ljg3NDAyNiAzMzguNjk3MjksOTI4LjkyNzkwNiBDMzM4Ljc1MTE2OSw5MjguOTgxNzg1IDMzOC44Mjg1MzUsOTI5LjAwMjUwOCAzMzguOTAxNzU3LDkyOC45ODE3ODUgTDM0MS4xODgxOTcsOTI4LjM2NTYyMSBMMzM5LjI1OTU3NCw5MjYuNDM2OTk5IEwzMzguNjQzNDEsOTI4LjcyMzQzOCBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzM4IC05MTkpIi8+PC9zdmc+) no-repeat 5px center; }
+
+.crm-entity-section-status-step-item-edit-btn-white { background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDExIDEwIj48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzQ2LjY5Nzk1NCw5MTkgTDM0OC42MjY1NzcsOTIwLjkyODYyMiBMMzQxLjcwOTAzNSw5MjcuODQ0NzgyIEwzMzkuNzgwNDEzLDkyNS45MTYxNiBMMzQ2LjY5Nzk1NCw5MTkgWiBNMzM4LjY0MzQxLDkyOC43MjM0MzggQzMzOC42MjQwNjgsOTI4Ljc5NjY2IDMzOC42NDQ3OTEsOTI4Ljg3NDAyNiAzMzguNjk3MjksOTI4LjkyNzkwNiBDMzM4Ljc1MTE2OSw5MjguOTgxNzg1IDMzOC44Mjg1MzUsOTI5LjAwMjUwOCAzMzguOTAxNzU3LDkyOC45ODE3ODUgTDM0MS4xODgxOTcsOTI4LjM2NTYyMSBMMzM5LjI1OTU3NCw5MjYuNDM2OTk5IEwzMzguNjQzNDEsOTI4LjcyMzQzOCBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzM4IC05MTkpIi8+PC9zdmc+) no-repeat 5px center; }
+
+.crm-entity-section-status-step-item:hover .crm-entity-section-status-step-item-edit-btn { width: 32px; }
+
+.crm-entity-section-status-step-item-edit-btn:hover { opacity: 1; }
+*/

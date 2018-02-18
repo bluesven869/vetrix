@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/socialnetwork/content_view.js" => "151859622812572","/bitrix/js/socialnetwork/log-destination.js" => "151859622897170","/bitrix/js/socialnetwork/video_recorder.js" => "151859622818375","/bitrix/js/socialnetwork/render_parts.js" => "15185962282050","/bitrix/js/socialnetwork/comment_aux.js" => "15185962282341",)); ?>

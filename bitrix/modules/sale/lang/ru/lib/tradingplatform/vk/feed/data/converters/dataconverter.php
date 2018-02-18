@@ -1,0 +1,4 @@
+<?
+$MESS['SALE_VK_INCH'] = ' äþéìà';
+$MESS["SALE_VK_PRODUCT_LAQUO"] = "«";
+$MESS["SALE_VK_PRODUCT_RAQUO"] = "»";

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/bitrix24/bitrix24.js" => "151859632239475",)); ?>

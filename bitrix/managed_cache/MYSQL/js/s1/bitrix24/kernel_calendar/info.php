@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/calendar/cal-core.js" => "151859617368360","/bitrix/js/calendar/cal-dialogs.js" => "151859617353075","/bitrix/js/calendar/cal-week.js" => "151859617312995","/bitrix/js/calendar/cal-events.js" => "151859617313013","/bitrix/js/calendar/cal-controlls.js" => "151859617370330",)); ?>

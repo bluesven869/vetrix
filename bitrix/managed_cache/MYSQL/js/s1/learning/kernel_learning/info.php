@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/learning/scorm.js" => "15185962065066",)); ?>

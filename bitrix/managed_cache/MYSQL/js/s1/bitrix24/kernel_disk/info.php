@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/disk/c_disk.js" => "151859619121263","/bitrix/js/disk/file_dialog.js" => "151859619125023","/bitrix/js/disk/queue.js" => "15185961911061","/bitrix/js/disk/external_loader.js" => "15185961914180","/bitrix/js/disk/information_popups.js" => "15185961914685",)); ?>
